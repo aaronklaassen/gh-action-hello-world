@@ -1,5 +1,3 @@
-#!/bin/sh
+#!/usr/bin/env ruby
 
-set -eu
-
-sh -c "echo $*"
+puts "Hello, world"
